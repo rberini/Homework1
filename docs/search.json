@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "data_science_week_1.html",
+    "href": "data_science_week_1.html",
+    "title": "Data Science Week 1",
+    "section": "",
+    "text": "What do you think being a data scientist is about?\nData Scientists translate raw data into understanding and insight. The work may start as discovery and exploration. Machine learning methods, data visualization and storytelling are often employed. According to Practitioner’s Guide to Data Science by Lin and Li, data scientists perform engineering, analysis, and modeling/inference.\nWhat are the differences/similarities between data scientists and statisticians?\n\nDifferences:\n\nData scientists focus more on exploring complex business problems\nData scientists focus more on machine learning methods and prediction\nData scientists tend to deal with larger data sets and require experience cleaning and manipulating data\nStatisticians focus more on mathematical problems\nStatisticians tend to follow the scientific method and hypothesis testing\n\nSimilarities:\n\nBoth use descriptive and inferential statistics\nBoth tend have had extensive coursework in statistics, and, at the very least, require deep understanding of statistical methods\n\nHow do I consider myself in relation to these two areas?\nAt this point in my professional career, I have a bit more experience in statistical methods to address marketing research and UX research questions. From an academic perspective, I have more recently focused on data science, but have not had the opportunity to apply those skills in a professional capacity."
+  },
+  {
+    "objectID": "data_science_week_1.html#data-science-questions",
+    "href": "data_science_week_1.html#data-science-questions",
+    "title": "Data Science Week 1",
+    "section": "",
+    "text": "What do you think being a data scientist is about?\nData Scientists translate raw data into understanding and insight. The work may start as discovery and exploration. Machine learning methods, data visualization and storytelling are often employed. According to Practitioner’s Guide to Data Science by Lin and Li, data scientists perform engineering, analysis, and modeling/inference.\nWhat are the differences/similarities between data scientists and statisticians?\n\nDifferences:\n\nData scientists focus more on exploring complex business problems\nData scientists focus more on machine learning methods and prediction\nData scientists tend to deal with larger data sets and require experience cleaning and manipulating data\nStatisticians focus more on mathematical problems\nStatisticians tend to follow the scientific method and hypothesis testing\n\nSimilarities:\n\nBoth use descriptive and inferential statistics\nBoth tend have had extensive coursework in statistics, and, at the very least, require deep understanding of statistical methods\n\nHow do I consider myself in relation to these two areas?\nAt this point in my professional career, I have a bit more experience in statistical methods to address marketing research and UX research questions. From an academic perspective, I have more recently focused on data science, but have not had the opportunity to apply those skills in a professional capacity."
+  },
+  {
+    "objectID": "data_science_week_1.html#initial-code",
+    "href": "data_science_week_1.html#initial-code",
+    "title": "Data Science Week 1",
+    "section": "Initial Code",
+    "text": "Initial Code\nSet y to represent the kernel density of petal width in the iris dataset\n\ny &lt;- density(iris$Petal.Width)\n\nCreate an R code chunk to determine the class, type, and structure of the object y\n\nclass(y)\n\n[1] \"density\"\n\ntypeof(y)\n\n[1] \"list\"\n\nstr(y)\n\nList of 8\n $ x         : num [1:512] -0.656 -0.648 -0.64 -0.633 -0.625 ...\n $ y         : num [1:512] 0.00161 0.00178 0.00197 0.00217 0.00239 ...\n $ bw        : num 0.252\n $ n         : int 150\n $ old.coords: logi FALSE\n $ call      : language density.default(x = iris$Petal.Width)\n $ data.name : chr \"iris$Petal.Width\"\n $ has.na    : logi FALSE\n - attr(*, \"class\")= chr \"density\"\n\n\nCreate an R code chunk that uses the plot function on y. Hide the R code in the final document by setting echo to false"
+  }
+]

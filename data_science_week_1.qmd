@@ -1,0 +1,62 @@
+---
+title: "Data Science Week 1"
+format: html
+editor: visual
+---
+
+---
+title: "Data Science Week 1"
+format: html
+editor: visual
+---
+
+## Data Science Questions
+
+1.  What do you think being a **data scientist** is about?\
+    Data Scientists translate raw data into understanding and insight. The work may start as discovery and exploration. Machine learning methods, data visualization and storytelling are often employed. According to *Practitioner's Guide to Data Science* by Lin and Li, data scientists perform engineering, analysis, and modeling/inference.
+
+2.  What are the differences/similarities between **data scientists** and **statisticians**?\
+    \
+    Differences:
+
+    -   Data scientists focus more on exploring complex business problems
+
+    -   Data scientists focus more on machine learning methods and prediction
+
+    -   Data scientists tend to deal with larger data sets and require experience cleaning and manipulating data
+
+    -   Statisticians focus more on mathematical problems
+
+    -   Statisticians tend to follow the scientific method and hypothesis testing
+
+    Similarities:
+
+    -   Both use descriptive and inferential statistics
+    -   Both tend have had extensive coursework in statistics, and, at the very least, require deep understanding of statistical methods
+
+3.  How do I consider myself in relation to these two areas?\
+    At this point in my professional career, I have a bit more experience in statistical methods to address marketing research and UX research questions. From an academic perspective, I have more recently focused on data science, but have not had the opportunity to apply those skills in a professional capacity.
+
+## Initial Code
+
+Set `y` to represent the kernel density of petal width in the `iris` dataset
+
+```{r}
+y <- density(iris$Petal.Width)
+```
+
+Create an `R code` chunk to determine the `class`, `type`, and `structure` of the object `y`
+
+```{r}
+class(y)
+typeof(y)
+str(y)
+```
+
+Create an `R code` chunk that uses the `plot` function on `y`. Hide the `R code` in the final document by setting echo to false
+
+```{r}
+#| echo: false
+
+plot(y)
+```
